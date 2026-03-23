@@ -15,8 +15,8 @@ Data=Dataprocess(position)
 distmatrix=Data.build_dist_mat()
 #使用遗传算法的nsga2
 numsolution=20#初始种群
-numsalesman=4#实际数据前x行的震源车数
-everyworktime=20#震源车在每个炮点的激发时间，假设是固定的
+numsalesman=4#震源车数
+everyworktime=20#震源车在每个炮点的激发时间
 velocity=8.33#震源车移动速度
 solution=population(numsalesman, position, numsolution, distmatrix)
 
